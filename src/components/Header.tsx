@@ -42,16 +42,11 @@ export default function Header() {
                         ))}
                     </div>
                 </div>
-                <div style={{ width: '192px', height: '192px', flexShrink: 0 }}>
+                <div className="w-48 h-48 flex-shrink-0">
                     <img
                         src={profileData.profileImage}
                         alt={profileData.name}
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            borderRadius: '50%'
-                        }}
+                        className="w-full h-full object-cover rounded-full"
                     />
                 </div>
             </div>
