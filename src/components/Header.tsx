@@ -25,7 +25,9 @@ export default function Header() {
                             </React.Fragment>
                         ))}
                     </div>
-                    {profileData.email}
+                    <p className="text-sm text-gray-600 mt-4">
+                        Email: {profileData.email}
+                    </p>
                     <div className="flex flex-wrap gap-6 mt-6 items-center">
                         {profileData.institutions.map((institution, index) => (
                             <a
