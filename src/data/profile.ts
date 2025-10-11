@@ -29,6 +29,8 @@ export const profileData: ProfileData = {
         { name: "CV", url: "/pdfs/cv.pdf" },
         { name: "GitHub", url: "https://github.com/aryamantepal" },
         { name: "LinkedIn", url: "https://www.linkedin.com/in/aryamantepal/" },
+        { name: "Education", url: "/education" },
+        { name: "Experience", url: "/experience" },
     ],
     institutions: [
         { name: "University of Massachusetts Amherst", url: "https://www.umass.edu/" },
