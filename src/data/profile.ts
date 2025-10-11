@@ -3,6 +3,7 @@ export interface ProfileData {
     pronunciation: string;
     bio: string[];
     email: string;
+    profileImage: string;
     links: {
         name: string;
         url: string;
@@ -23,6 +24,7 @@ export const profileData: ProfileData = {
         "My research interests include deep learning, remote sensing, computer vision and vision-language models."
     ],
     email: "atepal@umass.edu",
+    profileImage: "/images/profile.jpg",
     links: [
         { name: "CV", url: "/pdfs/cv.pdf" },
         { name: "GitHub", url: "https://github.com/aryamantepal" },
