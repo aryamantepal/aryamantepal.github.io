@@ -9,7 +9,7 @@ export default function Header() {
                     <h1 className="text-4xl font-bold mb-1">{profileData.name}</h1>
                     <p className="text-sm text-gray-600 mb-6">({profileData.pronunciation})</p>
                     {profileData.bio.map((paragraph, index) => (
-                        <p key={index} className="mb-4 text-gray-800">
+                        <p key={index} className="mb-4 text-gray-800 leading-relaxed">
                             {paragraph}
                         </p>
                     ))}
@@ -28,7 +28,7 @@ export default function Header() {
                     <p className="text-sm text-gray-600 mt-4">
                         Email: {profileData.email}
                     </p>
-                    <div className="flex flex-wrap gap-6 mt-6 items-center">
+                    <div className="flex flex-wrap gap-6 mt-8 items-center">
                         {profileData.institutions.map((institution, index) => (
                             <a
                                 key={index}
@@ -43,7 +43,11 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="w-48 h-48 flex-shrink-0">
-                    {profileData.profileImage}
+                    <img
+                        src={profileData.profileImage}
+                        alt={profileData.name}
+                        className="w-full h-full object-cover rounded-full"
+                    />
                 </div>
             </div>
         </div>
