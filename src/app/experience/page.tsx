@@ -26,9 +26,30 @@ export default function ExperiencePage() {
 
                             {/* Content column (right side) */}
                             <div className="flex-1">
-                                {/* TODO: Add title, org, location, duration */}
-                                {/* TODO: Add description bullets */}
-                                {/* TODO: Add tags */}
+                                <div className="flex-1">
+                                    <h2 className="text-xl font-semibold">{exp.title}</h2>
+                                    <p className="text-gray-700">{exp.organization} • {exp.location}</p>
+                                    <p className="text-sm text-gray-600 mb-3">{exp.duration}</p>
+
+                                    <ul className="list-disc ml-6 text-gray-700 mb-3">
+                                        {exp.description.map((item, i) => (
+                                            <li key={i}>{item}</li>
+                                        ))}
+                                    </ul>
+
+                                    {exp.tags && (
+                                        <div className="flex flex-wrap gap-2">
+                                            {exp.tags.map((tag, i) => (
+                                                <span
+                                                    key={i}
+                                                    className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
+                                                >
+                                                    {tag}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         </div>
                     ))}
