@@ -32,6 +32,7 @@ export const profileData: ProfileData = {
         { name: "Education", url: "/education" },
         { name: "Experience", url: "/experience" },
         // { name: "Projects", url: "/projects" },
+        { name: "Travel", url: "/travel" }
     ],
     institutions: [
         { name: "University of Massachusetts Amherst", url: "https://www.umass.edu/" },
