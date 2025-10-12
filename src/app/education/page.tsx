@@ -11,7 +11,6 @@ export default function EducationPage() {
                 <h1 className="text-4xl font-bold mb-8">Education</h1>
                 {educationData.map((edu, index) => (
                     <div key={index} className="flex gap-6 mb-8">
-                        {/* Image column */}
                         <div className="w-24 h-24 flex-shrink-0">
                             <img
                                 src={edu.image}
@@ -19,8 +18,6 @@ export default function EducationPage() {
                                 className="w-full h-full object-contain"
                             />
                         </div>
-
-                        {/* Content column */}
                         <div className="flex-1">
                             <h2 className='text-2xl font-semibold'>{edu.school}</h2>
                             <p className='text-gray-700'>{edu.degree} in {edu.major}</p>
