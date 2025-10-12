@@ -12,7 +12,7 @@ export const travelData: Trip[] = [
         // title: "Trip Name",
         location: "Amsterdam, NL",
         date: "July 2025",
-        image: "/images/travel/Amsterdam.HEIC",
+        image: "/images/education/umass.png",
         description: [
             "First paragraph about the trip...",
             "Second paragraph...",

@@ -1,6 +1,13 @@
 import { travelData } from "@/data/travel";
 import { notFound } from "next/navigation";
 
+
+export function generateStaticParams() {
+    return travelData.map((trip) => ({
+        slug: trip.slug,
+    }));
+}
+
 export default function TripPage({ params }: { params: { slug: string } }) {
     // Find the trip that matches the slug
     const trip = travelData.find((t) => t.slug === params.slug);
