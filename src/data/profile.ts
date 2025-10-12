@@ -23,7 +23,7 @@ export const profileData: ProfileData = {
         "I've also had the pleasure of working with James Murphy at Tufts University, Jim Buffat at the Forschungszentrum Julich, Elliot Taffet at UMass Amherst and Curtis Atkisson at the University of Washington",
         "My research interests include deep learning, remote sensing, computer vision and vision-language models."
     ],
-    email: "atepal@umass.edu",
+    email: "atepal [at] umass [dot] edu",
     profileImage: "/images/profile.jpg",
     links: [
         { name: "CV", url: "/pdfs/cv.pdf" },

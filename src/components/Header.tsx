@@ -26,7 +26,7 @@ export default function Header() {
                         ))}
                     </div>
                     <p className="text-sm text-gray-600 mt-4">
-                        Email: {profileData.email}
+                        Email: <span className="font-mono">{profileData.email}</span>
                     </p>
                     <div className="flex flex-wrap gap-6 mt-8 items-center">
                         {profileData.institutions.map((institution, index) => (
