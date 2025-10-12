@@ -15,7 +15,8 @@ export const experienceData: Experience[] = [
         location: "Jülich, Germany",
         duration: "May 2025 - Aug 2025",
         description: [
-            "Worked with Jim Buffat on deep learning & remote sensing for sun-induced fluorescence retrieval at the Forschungszentrum Jülich, iAS-8 (Data Analytics and Machine Learning group)"
+            "Worked with Jim Buffat on deep learning & remote sensing for sun-induced fluorescence retrieval at the Forschungszentrum Jülich, iAS-8 (Data Analytics and Machine Learning group)",
+            "Supported by the DAAD RISE Scholarship."
         ],
         tags: ["PyTorch", "Python"],
         image: "/images/experience/fzj.png"
@@ -26,9 +27,8 @@ export const experienceData: Experience[] = [
         location: "Remote",
         duration: "May 2025 - Present",
         description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
+            "Engineered RESTful APIs with Typescript and Next.js / React.js for posting, fetching, and handling data on scientific article contributors from a MongoDB database and rendering them automatically on article webpages.",
+            "Re-designed and implemented database schemas through Prisma to separate scientific contributors from website users while maintaining the usabilities of existing APIs, enhancing backend efficiency.",
         ],
         tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
         image: "/images/experience/sciquel.jpeg"
@@ -39,9 +39,8 @@ export const experienceData: Experience[] = [
         location: "Medford, MA",
         duration: "May 2024 - Aug 2024",
         description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
+            "Worked with Prof. James Murphy on problems related to hyperspectral image clustering & unmixing.",
+            "Supported by the Tufts VERSE REU."
         ],
         tags: ["PyTorch", "Python", "MATLAB"],
         image: "/images/experience/tufts.jpg"
@@ -52,9 +51,8 @@ export const experienceData: Experience[] = [
         location: "Amherst, MA",
         duration: "Feb 2025 - May 2025",
         description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
+            "Optimized backend architecture using FastAPI and GraphQL, reducing API response times by 40% and scaling to handle 20+ concurrent queries/sec; integrated with a React frontend for intuitive user experiences.",
+            "Automated memory and context retrieval using FAISS and LangChain, powering real-time agentic query resolution."
         ],
         tags: ["TypeScript", "FAISS", "LangChain", "FastAPI"],
         image: "/images/experience/build.jpeg"
