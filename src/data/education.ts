@@ -21,7 +21,7 @@ export const educationData: Education[] = [
             "Robotics",
             "Systems Programming",
             "Computer Architecture",
-            "Object-oriented Programming"
+            "Object-Oriented Programming"
         ],
         image: "/images/education/umass.png"
     }
