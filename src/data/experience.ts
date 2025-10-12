@@ -10,18 +10,6 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
     {
-        title: "Research Assistant",
-        organization: "Forschungszentrum Jülich",
-        location: "Jülich, Germany",
-        duration: "May 2025 - Aug 2025",
-        description: [
-            "Worked with Jim Buffat on deep learning & remote sensing for sun-induced fluorescence retrieval at the Forschungszentrum Jülich, iAS-8 (Data Analytics and Machine Learning group)",
-            "Supported by the DAAD RISE Scholarship."
-        ],
-        tags: ["PyTorch", "Python"],
-        image: "/images/experience/fzj.png"
-    },
-    {
         title: "Software Engineer Intern",
         organization: "SciQuel",
         location: "Remote",
@@ -32,6 +20,18 @@ export const experienceData: Experience[] = [
         ],
         tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
         image: "/images/experience/sciquel.jpeg"
+    },
+    {
+        title: "Research Assistant",
+        organization: "Forschungszentrum Jülich",
+        location: "Jülich, Germany",
+        duration: "May 2025 - Aug 2025",
+        description: [
+            "Worked with Jim Buffat on deep learning & remote sensing for sun-induced fluorescence retrieval at the Forschungszentrum Jülich, iAS-8 (Data Analytics and Machine Learning group)",
+            "Supported by the DAAD RISE Scholarship."
+        ],
+        tags: ["PyTorch", "Python"],
+        image: "/images/experience/fzj.png"
     },
     {
         title: "Research Assistant",
