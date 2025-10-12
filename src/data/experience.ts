@@ -15,9 +15,7 @@ export const experienceData: Experience[] = [
         location: "Jülich, Germany",
         duration: "May 2025 - Aug 2025",
         description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
+            "Worked with Jim Buffat on deep learning & remote sensing for sun-induced fluorescence retrieval at the Forschungszentrum Jülich, iAS-8 (Data Analytics and Machine Learning group)"
         ],
         tags: ["PyTorch", "Python"],
         image: "/images/experience/fzj.png"
@@ -59,32 +57,30 @@ export const experienceData: Experience[] = [
             "Impact/results"
         ],
         tags: ["TypeScript", "FAISS", "LangChain", "FastAPI"],
-        image: "/images/experience/build.png"
+        image: "/images/experience/build.jpeg"
     },
-    {
-        title: "Research Software Engineer",
-        organization: "Nursing & Engineering Lab",
-        location: "Amherst, MA",
-        duration: "Sep 2025 - Onwards",
-        description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
-        ],
-        tags: ["C"],
-        image: "/images/experience/n&e.png"
-    },
-    {
-        title: "Research Assistant",
-        organization: "RHO Group",
-        location: "Amherst, MA",
-        duration: "Sep 2025 - Onwards",
-        description: [
-            "Bullet point about what you did",
-            "Another accomplishment",
-            "Impact/results"
-        ],
-        tags: ["PyTorch", "Python"],
-        image: "/images/experience/fzj.png"
-    },
+    // {
+    //     title: "Research Software Engineer",
+    //     organization: "Nursing & Engineering Lab",
+    //     location: "Amherst, MA",
+    //     duration: "Sep 2025 - Onwards",
+    //     description: [
+    //         "Bullet point about what you did",
+    //         "Another accomplishment",
+    //         "Impact/results"
+    //     ],
+    //     tags: ["C"],
+    //     image: "/images/experience/n&e.png"
+    // },
+    // {
+    //     title: "Research Assistant",
+    //     organization: "RHO Group",
+    //     location: "Amherst, MA",
+    //     duration: "Sep 2025 - Onwards",
+    //     description: [
+    //         "Working with Prof. Mario Parente on ML for Mars hyperspectral data. More specifically, we are working on "
+    //     ],
+    //     tags: ["PyTorch", "Python"],
+    //     image: "/images/experience/fzj.png"
+    // },
 ];
