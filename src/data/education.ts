@@ -6,6 +6,8 @@ export interface Education {
     gpa: string;
     duration: string;
     coursework: string[];
+    honors?: string[];
+    activities?: string[];
     image: string;
 }
 
@@ -23,6 +25,14 @@ export const educationData: Education[] = [
             "Computer Architecture",
             "Object-Oriented Programming"
         ],
-        image: "/images/education/umass.png"
+        honors: [
+            "Dean's List",
+            "Chancellor's Award"
+        ],
+        activities: [
+            "President, MassAI",
+            "Resident Assistant"
+        ],
+        image: "/images/education/umass.png",
     }
 ];
