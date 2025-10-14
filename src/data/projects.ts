@@ -12,9 +12,9 @@ export const projectsData: Project[] = [
     {
         title: "Moments",
         description: "A social platform for travelers to share 'sound-scenes' — photo + music moments.",
-        tech: ["Kotlin", "Spring Boot", "PostgreSQL", "AWS S3", "Docker", "Next.js"],
+        tech: ["TypeScript", "Spring Boot", "PostgreSQL", "AWS S3", "Docker", "Next.js"],
         bullets: [
-            "Developing Kotlin-based backend microservices with Spring Boot for authentication, media uploads to AWS S3, and secure REST APIs",
+            "Developing TypeScript-based backend microservices with Spring Boot for authentication, media uploads to AWS S3, and secure REST APIs",
             "Integrating with Spotify API for contextual music recommendations per location",
             "Implementing containerized deployment pipelines using Docker and GitHub Actions for reliability and scalability"
         ],
