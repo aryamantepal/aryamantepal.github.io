@@ -21,7 +21,7 @@ export default function EducationPage() {
                         <div className="flex-1">
                             <h2 className='text-2xl font-semibold'>{edu.school}</h2>
                             <p className='text-gray-700'>{edu.degree} in {edu.major}</p>
-                            <p className='text-sm text-gray-600'>{edu.gpa} | {edu.duration}</p>
+                            <p className='text-sm text-gray-600 font-bold'>{edu.gpa} | {edu.duration}</p>
 
                             <div className="mt-2">
                                 <h3 className="font-medium text-gray-800 mb-1">Relevant Coursework:</h3>
