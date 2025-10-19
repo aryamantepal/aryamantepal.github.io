@@ -57,6 +57,18 @@ export const experienceData: Experience[] = [
         tags: ["TypeScript", "FAISS", "LangChain", "FastAPI"],
         image: "/images/experience/build.jpeg"
     },
+    {
+        title: "AI / ML Fellow",
+        organization: "Salesforce",
+        location: "Amherst, MA",
+        duration: "Aug 2024 - Dec 2024",
+        description: [
+            "Developed AI models for SAAS customer sentiment analysis and lead conversion prediction with 91% accuracy using Random Forest.",
+            "Utilized Prophet for time series forecasting to optimize outreach timing for predictive analytics."
+        ],
+        tags: ["Python", "Pandas", "Prophet", "SQL"],
+        image: "/images/experience/salesforce.webp"
+    },
     // {
     //     title: "Research Software Engineer",
     //     organization: "Nursing & Engineering Lab",

@@ -33,5 +33,19 @@ export const projectsData: Project[] = [
         github: "https://github.com/yourusername/zookart",
         demo: "https://zookart.vercel.app",
         // image: "/images/projects/zookart.png"
+    },
+    {
+        title: "Arduino Solar Tracker",
+        description: "A dual-axis solar tracking system powered by an ESP32 that automatically aligns a solar panel with the sun for maximum light exposure.",
+        tech: ["ESP32", "C++", "Arduino", "OLED Display", "Servo Motors"],
+        bullets: [
+            "Designed and implemented a dual-axis tracking mechanism using four LDR sensors and two servo motors for real-time sun alignment",
+            "Developed an adaptive control algorithm with light thresholds and noise buffering to ensure smooth and stable motion",
+            "Integrated a 0.96” I2C OLED display to visualize live sensor readings and servo positions",
+            "Optimized sensor data processing using buffered readings for improved accuracy under varying light conditions"
+        ],
+        github: "https://github.com/aryamantepal/Arduino-Solar-Tracker",
+        demo: "https://drive.google.com/file/d/1GBvWDiPYHOSNjy22GcJ6dnhQWcrdieUk/view?usp=sharing",
+        // image: "/images/projects/solartracker.png"
     }
 ];
