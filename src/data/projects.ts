@@ -46,6 +46,15 @@ export const projectsData: Project[] = [
         ],
         github: "https://github.com/aryamantepal/Arduino-Solar-Tracker",
         demo: "https://drive.google.com/file/d/1GBvWDiPYHOSNjy22GcJ6dnhQWcrdieUk/view?usp=sharing",
-        // image: "/images/projects/solartracker.png"
+    },
+    {
+        title: "NSFW Content-Filtering System",
+        description: "Modular content-filtering pipeline for text-to-video systems using DeepSeek and Phi-4",
+        tech: ["Python", "DeepSeek", "Phi-4", "LLM Ensemble", "AI Safety"],
+        bullets: [
+            "Developed an NSFW content-filtering system for text-to-video prompts using Phi-4 and DeepSeek-R1.",
+            "Evaluated 432 prompts, revealing a temporal risk detection gap — achieving 93% accuracy on non-temporal vs 61% on temporal risks.",
+        ],
+        github: "https://github.com/aryamantepal/T2V-Safety-Filter",
     }
 ];
