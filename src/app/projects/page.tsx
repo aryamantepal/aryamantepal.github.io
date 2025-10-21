@@ -29,10 +29,29 @@ export default function ProjectsPage() {
                             ))}
                         </ul>
 
-                        {project.github && (
-                            <a href={project.github} className="text-blue-600 hover:underline text-sm">
-                                GitHub →
-                            </a>
+                        {(project.github || project.demo) && (
+                            <div className="flex gap-4">
+                                {project.github && (
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-600 hover:underline text-sm"
+                                    >
+                                        GitHub →
+                                    </a>
+                                )}
+                                {project.demo && (
+                                    <a
+                                        href={project.demo}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-600 hover:underline text-sm"
+                                    >
+                                        Live Demo →
+                                    </a>
+                                )}
+                            </div>
                         )}
                     </div>
                 ))}

@@ -18,7 +18,7 @@ export const projectsData: Project[] = [
             "Integrating with Spotify API for contextual music recommendations per location",
             "Implementing containerized deployment pipelines using Docker and GitHub Actions for reliability and scalability"
         ],
-        github: "https://github.com/yourusername/moments",
+        // github: "https://github.com/yourusername/moments",
         // image: "/images/projects/moments.png"
     },
     {
@@ -30,8 +30,8 @@ export const projectsData: Project[] = [
             "Deployed with AWS EC2 (backend) and Vercel (frontend) using GitHub Actions for CI/CD",
             "Integrated real-time WebSocket updates and implemented authentication and session handling"
         ],
-        github: "https://github.com/yourusername/zookart",
-        demo: "https://zookart.vercel.app",
+        // github: "https://github.com/yourusername/zookart",
+        // demo: "https://zookart.vercel.app",
         // image: "/images/projects/zookart.png"
     },
     {
