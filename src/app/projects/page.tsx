@@ -29,11 +29,11 @@ export default function ProjectsPage() {
                             ))}
                         </ul>
 
-                        {/* {project.github && (
+                        {project.github && (
                             <a href={project.github} className="text-blue-600 hover:underline text-sm">
                                 GitHub →
                             </a>
-                        )} */}
+                        )}
                     </div>
                 ))}
             </div>
