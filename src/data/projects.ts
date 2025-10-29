@@ -56,5 +56,15 @@ export const projectsData: Project[] = [
             "Evaluated 432 prompts, revealing a temporal risk detection gap — achieving 93% accuracy on non-temporal vs 61% on temporal risks.",
         ],
         github: "https://github.com/aryamantepal/T2V-Safety-Filter",
+    },
+    {
+        title: "spectral vision transformer",
+        description: "Vision Transformer (ViT) model for hyperspectral image classification",
+        tech: ["Python", "PyTorch", "SciPy", "Scikit-Learn"],
+        bullets: [
+
+        ],
+        // github: "https://github.com/yourusername/moments",
+        // image: "/images/projects/moments.png"
     }
 ];
