@@ -62,6 +62,7 @@ export const projectsData: Project[] = [
         description: "Vision Transformer (ViT) model for hyperspectral image classification",
         tech: ["Python", "PyTorch", "SciPy", "Scikit-Learn"],
         bullets: [
+            "Designed a Spectral Vision Transformer for HSI classification on Indian Pines, achieving 95% accuracy through spectral-spatial patch embeddings and positional encoding",
 
         ],
         // github: "https://github.com/yourusername/moments",
