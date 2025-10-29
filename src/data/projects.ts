@@ -63,9 +63,8 @@ export const projectsData: Project[] = [
         tech: ["Python", "PyTorch", "SciPy", "Scikit-Learn"],
         bullets: [
             "Designed a Spectral Vision Transformer for HSI classification on Indian Pines, achieving 95% accuracy through spectral-spatial patch embeddings and positional encoding",
-
         ],
-        // github: "https://github.com/yourusername/moments",
+        github: "https://github.com/aryamantepal/DL/tree/main/experiments/spectralViT/IndianPines",
         // image: "/images/projects/moments.png"
     }
 ];
